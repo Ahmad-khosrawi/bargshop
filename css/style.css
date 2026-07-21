@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+@font-face {
+    font-family: lalezar;
+    src: url(../font/Lalezar-Regular.ttf);
+}
+.lalezar{
+    font-family: lalezar;
+}
+@font-face {
+    font-family: vazir;
+    src: url(../font/Vazir.ttf);
+}
+@font-face {
+    font-family:kamva ;
+    src: url(../font/kamva.ttf);
+}
+.kamva{
+    font-family: kamva , sans-serif;
+}
+
+.offcanvas-body li:hover{
+    background-color: #ddd;
+    border-radius: 5px;
+}
+body{
+    font-family: vazir;
+    
+}
+
+
+.page-intro{
+    width: 100%;
+    background: #fff700;
+background: linear-gradient(90deg, rgba(255, 247, 0, 1) 0%, rgba(133, 133, 13, 1) 100%);
+
+
+}
+.new-products .container  .col .card{
+    transition: all 0.5s;
+}
+.new-products .container .col .card:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.banner .container img{
+    transition: all 0.5s;
+}
+.banner .container img:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 2px 3px 5px #666;
+}
+ .most-off{
+    background-color: #FFF700;
+ }
+
+.most-off .card{
+    transition: all 0.3s;
+}
+.most-off .card:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+.accordion button img{
+    width: 60px;
+    height: 60px;
+    
+}
+.accordion-button:focus{
+    background-color: #fff;
+
+}
+footer{
+    background-color: #333;
+    
+}
+
+footer .container i{
+    transition: all 0.5s;
+}
+footer .container i:hover{
+    cursor: pointer;
+    color: #999;
+    transform: scale(1.1);
+}
+.new-products img{
+    height: 300px;
+}
+footer .container img{
+    transition: all 0.5s;
+}
+footer .container img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* product  */
+
+.breadcrumbs .container-fluid{
+    background-color: #ddd;
+}
+
+
+.breadcrumbs .container-fluid a {
+ text-decoration: none;
+ color: #777;
+    
+}
+.breadcrumbs .container-fluid a:hover {
+    color: #fff;
+}
+
+.breadcrumbs .container-fluid span{
+    color: #777;
+}
+.breadcrumbs .container-fluid i{
+    color: #777;
+}
+
+
+
+.product-props{
+    color: #777;
+    
+}
+
+.product-props span{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 9px;
+}
+
+ .props ul li{
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.product-props button{
+    transition: all 0.4s;
+
+}
+
+.product-props button:hover{
+    transform: scale(1.03);
+}
+
+/* user-comments */
+.users-comments-box .user-comment img{
+    width: 70px;
+    height: auto;
+}
+
+
+/* contact-us */
+
+.contact-us{
+    color: #999;
+}
+.contact-us .contact-end p{
+    line-height: 3em;
+}
+
+.main-intro .right *{
+    padding: 3px;
+    
+}
+
+
+.about-intro .right-intro p{
+    line-height: 3em;
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
